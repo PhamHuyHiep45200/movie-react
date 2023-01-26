@@ -3,6 +3,7 @@ import {
   NotificationOutlined,
   UserOutlined,
 } from "@ant-design/icons";
+import styles from "../styles/test.module.scss";
 import { Breadcrumb, Layout, Menu, theme } from "antd";
 import React from "react";
 const { Header, Content, Sider } = Layout;
@@ -82,7 +83,7 @@ const App = () => {
               background: colorBgContainer,
             }}
           >
-            Content
+            <div className={styles.test}>oke men</div>
           </Content>
         </Layout>
       </Layout>
