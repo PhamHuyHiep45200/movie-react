@@ -7,6 +7,6 @@ function PageMovie() {
 
 export default PageMovie;
 
-// PageMovie.getLayout = function getLayout(page) {
-//   return <LayoutAdmin>{page}</LayoutAdmin>;
-// };
+PageMovie.getLayout = function getLayout(page) {
+  return <LayoutAdmin>{page}</LayoutAdmin>;
+};

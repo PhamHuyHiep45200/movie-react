@@ -20,6 +20,11 @@ const items = [
     icon: <AuditOutlined />,
     label: "Quản lý người dùng",
   },
+  {
+    key: "/phim",
+    icon: <AuditOutlined />,
+    label: "Quản lý Phim2",
+  },
 ];
 
 export default items;

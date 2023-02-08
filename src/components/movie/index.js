@@ -1,7 +1,6 @@
 import React from "react";
-
 function MovieChildren() {
-  return <div>MovieChildren</div>;
+  return <div>Chào</div>;
 }
 
 export default MovieChildren;
